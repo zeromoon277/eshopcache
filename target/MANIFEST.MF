@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: eshop-cache
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.bixkjwfnh
+Build-Jdk: 1.8.0_101
+Built-By: Administrator
+Created-By: IntelliJ IDEA
+Main-Class: ${start-class}
+

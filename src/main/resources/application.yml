@@ -1,0 +1,23 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.1.220:3306/test10
+    username: ly
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    
+  redis:
+    host: 129.28.52.35
+    port: 6379
+    password: 123456
+  kafka:
+    consumer:
+      enable-auto-commit: true
+      group-id: test
+      auto-offset-reset: latest
+      bootstrap-servers: 129.28.52.35:9092,148.70.228.127:9092,148.70.246.80:9092
+
+mybatis:
+  typeAliasesPackage: com.bixkjwfnh.eshop.cache.model
+  mapperLocations: classpath:mybatis/*.xml
+    

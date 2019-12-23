@@ -1,2 +1,2 @@
-# eshopcache
- 商品缓存项目
+# RedisAndDBDoubleWriteConsistency
+Redis与DB双写一致性解决示例
